@@ -68,6 +68,8 @@ The dataset contains historical credit card transaction records with attributes 
 
 - Deploy the trained model using Streamlit
 
+---
+
 ## **🧠 Machine Learning Algorithm**
 
 Algorithm Used: Light Gradient Boosting Machine (LightGBM)
@@ -79,6 +81,8 @@ Problem Type: Binary Classification
 - 1 → Fraudulent Transaction
 
 LightGBM is chosen for its efficiency, accuracy, and ability to handle large and imbalanced datasets.
+
+---
 
 ## **📊 Model Evaluation**
 
