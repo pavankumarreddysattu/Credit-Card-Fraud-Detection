@@ -1,98 +1,109 @@
-💳 Credit Card Fraud Detection System
-📌 Project Overview
+# **💳 Credit Card Fraud Detection System**
+---
+## **📌 Project Overview**
 
 The Credit Card Fraud Detection System aims to identify fraudulent credit card transactions and distinguish them from legitimate ones. With the rapid increase in online payments, detecting fraud accurately is critical to reduce financial losses and ensure secure transactions.
 
-This project analyzes historical transaction data and predicts whether a transaction is fraudulent or legitimate using machine learning techniques. The trained model is deployed using a Streamlit web application for real-time prediction.
+This project analyzes historical transaction data and predicts whether a transaction is fraudulent or legitimate using machine learning techniques. The trained model is deployed using a Streamlit web application for real-time prediction. 
 
-🎯 Objectives
+---
 
-Detect fraudulent credit card transactions accurately
+## **🎯 Objectives**
 
-Analyze transaction behavior using historical data
+- Detect fraudulent credit card transactions accurately
+
+- Analyze transaction behavior using historical data
 
 Provide real-time fraud prediction through a user-friendly interface
 
-📂 Dataset
+---
+
+## **📂 Dataset**
 
 The dataset contains historical credit card transaction records with attributes such as:
 
-Transaction amount
+- Transaction amount
 
-Merchant and category
+- Merchant and category
 
-Transaction date and time
+- Transaction date and time
 
-Customer and merchant locations
+- Customer and merchant locations
 
-Customer demographic details
+- Customer demographic details
 
-Fraud label (is_fraud)
+- Fraud label (is_fraud)
 
-🛠️ Technologies Used
+---
 
-Programming Language: Python
+## **🛠️ Technologies Used**
 
-Machine Learning: LightGBM
+- Programming Language: Python
 
-Data Processing: Pandas, NumPy
+- Machine Learning: LightGBM
 
-Model Saving: Joblib
+- Data Processing: Pandas, NumPy
 
-Geographical Distance: Geopy
+- Model Saving: Joblib
 
-Web Framework: Streamlit
+- Geographical Distance: Geopy
 
-⚙️ System Approach
+- Web Framework: Streamlit
+  
+---
 
-Collect historical credit card transaction data
+## **⚙️ System Approach**
 
-Clean and preprocess the data
+- Collect historical credit card transaction data
 
-Perform feature engineering (time features, distance calculation)
+- Clean and preprocess the data
 
-Encode categorical attributes
+- Perform feature engineering (time features, distance calculation)
 
-Train a machine learning classification model
+- Encode categorical attributes
 
-Evaluate the model using appropriate metrics
+- Train a machine learning classification model
 
-Deploy the trained model using Streamlit
+- Evaluate the model using appropriate metrics
 
-🧠 Machine Learning Algorithm
+- Deploy the trained model using Streamlit
+
+## **🧠 Machine Learning Algorithm**
 
 Algorithm Used: Light Gradient Boosting Machine (LightGBM)
 
 Problem Type: Binary Classification
 
-0 → Legitimate Transaction
+- 0 → Legitimate Transaction
 
-1 → Fraudulent Transaction
+- 1 → Fraudulent Transaction
 
 LightGBM is chosen for its efficiency, accuracy, and ability to handle large and imbalanced datasets.
 
-📊 Model Evaluation
+## **📊 Model Evaluation**
 
 The model performance is evaluated using:
 
-Precision
+- Precision
 
-Recall
+- Recall
 
-F1-score
+- F1-score
 
-Confusion Matrix
+- Confusion Matrix
 
 Recall is given higher priority, as missing fraudulent transactions can lead to significant financial loss.
 
-🖥️ Web Application
+---
+
+## **🖥️ Web Application**
 
 A Streamlit-based web application allows users to:
 
-Enter transaction details
+- Enter transaction details
 
-Automatically preprocess inputs
+- Automatically preprocess inputs
 
-Predict whether a transaction is fraudulent or legitimate
+- Predict whether a transaction is fraudulent or legitimate
 
-View results instantly
+- View results instantly
